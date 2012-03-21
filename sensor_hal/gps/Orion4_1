@@ -1,0 +1,3 @@
+#!/system/bin/sh
+echo 85 0 20 1 > /dev/gpio
+Orion4_1.elf -inifile /system/etc/gps/Orion.ini
